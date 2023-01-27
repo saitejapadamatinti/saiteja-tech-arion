@@ -1,0 +1,49 @@
+.box {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+.counter {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.16);
+  border-radius: 30px;
+}
+.counter .title h1 {
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+.counter .countringContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counter .countringContainer h1 {
+  margin: 0px 50px;
+  font-size: 60px;
+}
+.counter .countringContainer button {
+  font-size: 40px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border-color: transparent;
+  width: 70px;
+  height: 70px;
+  outline: none;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.counter .countringContainer button:hover {
+  background-color: rgb(217, 209, 209);
+}
+.counter .countringContainer button:active {
+  background-color: rgb(155, 143, 143);
+}
